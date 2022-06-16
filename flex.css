@@ -1,0 +1,23 @@
+:root {
+  --bright_orange: hsl(31, 77%, 52%);
+  --dark_cyan: hsl(184, 100%, 22%);
+  --very_dark_cyan: hsl(179, 100%, 13%);
+  --paragraphs_color: hsla(0, 0%, 100%, 0.75);
+  --light_grey: hsl(0, 0%, 95%);
+}
+
+/* Creating box-sizing for all elments on the page */
+* {
+  box-sizing: border-box;
+}
+
+/* setting the default margin and padding 0 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+}
