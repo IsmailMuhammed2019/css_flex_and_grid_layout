@@ -20,4 +20,17 @@ body {
 
 body {
   font-size: 15px;
+  background-color: var(--light_grey);
+}
+
+button {
+  background-color: var(--light_grey);
+}
+
+h1 {
+  background-color: var(--light_grey);
+}
+
+p {
+  color: var(--paragraphs_color);
 }
