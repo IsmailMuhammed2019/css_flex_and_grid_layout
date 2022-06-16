@@ -18,19 +18,31 @@ body {
   padding: 0;
 }
 
+/* setting the default body properties */
 body {
   font-size: 15px;
   background-color: var(--light_grey);
 }
 
+/* Setting the default button properties */
 button {
   background-color: var(--light_grey);
 }
 
+/* Setting the default h1 properties */
 h1 {
   background-color: var(--light_grey);
 }
 
+/* Setting the default paragraph properties */
 p {
   color: var(--paragraphs_color);
+}
+
+/* Setting the media querry for small screen sizes */
+@media screen and (max-width: 375px) {
+}
+
+/* Setting the media querry for large screen sizes */
+@media screen and (max-width: 1440px) {
 }
