@@ -20,6 +20,8 @@ body {
 
 /* setting the default body properties */
 body {
+  width: 100vw;
+  height: 100vh;
   font-size: 15px;
   background-color: var(--light_grey);
 }
@@ -31,12 +33,60 @@ button {
 
 /* Setting the default h1 properties */
 h1 {
-  background-color: var(--light_grey);
+  color: var(--light_grey);
+  text-transform: uppercase;
 }
 
 /* Setting the default paragraph properties */
 p {
   color: var(--paragraphs_color);
+  margin: 2vw 0;
+  line-height: 2.3vw;
+}
+
+.sedans {
+  background-color: var(--bright_orange);
+}
+.suvs {
+  background-color: var(--dark_cyan);
+}
+
+.luxury {
+  background-color: var(--very_dark_cyan);
+}
+
+.sedans,
+.suvs,
+.luxury {
+  padding: 3vw;
+}
+
+.btn {
+  padding: 1vw;
+  border: 1px solid var(--light_grey);
+  border-radius: 20px;
+  width: 80%;
+  margin-top: 10px;
+  bottom: 0;
+  font-size: 15px;
+}
+
+.sedans > .btn {
+  color: var(--bright_orange);
+}
+
+.suvs > .btn {
+  color: var(--dark_cyan);
+}
+
+.luxury > .btn {
+  color: var(--very_dark_cyan);
+}
+
+.btn:hover {
+  background-color: inherit;
+  color: var(--paragraphs_color);
+  cursor: pointer;
 }
 
 /* Setting the media querry for small screen sizes */
@@ -45,9 +95,29 @@ p {
 
 /* Setting the media querry for large screen sizes */
 @media screen and (max-width: 1440px) {
+  main {
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
   .container {
-    width: 50%;
-    border-radius: 10px;
-    background-color: black;
+    width: 57%;
+    display: flex;
+  }
+
+  .sedans {
+    background-color: var(--bright_orange);
+    border-radius: 10px 0 0 10px;
+  }
+  .suvs {
+    background-color: var(--dark_cyan);
+  }
+
+  .luxury {
+    background-color: var(--very_dark_cyan);
+    border-radius: 0 10px 10px 0;
   }
 }
