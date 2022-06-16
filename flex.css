@@ -41,7 +41,7 @@ h1 {
 p {
   color: var(--paragraphs_color);
   margin: 2vw 0;
-  line-height: 2.3vw;
+  line-height: 20px;
 }
 
 .sedans {
@@ -62,7 +62,7 @@ p {
 }
 
 .btn {
-  padding: 1vw;
+  padding: 10px;
   border: 1px solid var(--light_grey);
   border-radius: 20px;
   width: 80%;
@@ -91,6 +91,36 @@ p {
 
 /* Setting the media querry for small screen sizes */
 @media screen and (max-width: 375px) {
+  main {
+    height: 100vh;
+    margin: 194px auto !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 50%;
+    margin-top: 40px !important;
+    margin-bottom: 20px;
+  }
+
+  .sedans {
+    background-color: var(--bright_orange);
+    border-radius: 0 0 0 0 !important;
+  }
+  .suvs {
+    background-color: var(--dark_cyan);
+  }
+
+  .luxury {
+    background-color: var(--very_dark_cyan);
+    border-radius: 0 0 0 0 !important;
+  }
 }
 
 /* Setting the media querry for large screen sizes */
