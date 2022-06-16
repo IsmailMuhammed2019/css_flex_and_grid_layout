@@ -9,6 +9,7 @@ body {
 }
 
 .grid-container {
+  margin-top: 50%;
   display: grid;
   background-color: grey;
   width: 50%;
@@ -21,10 +22,12 @@ body {
 .grid_1 {
   background-color: yellow;
   grid-column: span 3;
+  grid-row: span 2;
 }
 
 .grid_2 {
   background-color: orange;
+  grid-row: span 2;
 }
 
 .grid_3 {
