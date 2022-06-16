@@ -45,4 +45,9 @@ p {
 
 /* Setting the media querry for large screen sizes */
 @media screen and (max-width: 1440px) {
+  .container {
+    width: 50%;
+    border-radius: 10px;
+    background-color: black;
+  }
 }
