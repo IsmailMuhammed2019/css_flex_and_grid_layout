@@ -24,6 +24,7 @@ body {
   height: 100vh;
   font-size: 15px;
   background-color: var(--light_grey);
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 /* Setting the default button properties */
@@ -35,6 +36,7 @@ button {
 h1 {
   color: var(--light_grey);
   text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
 }
 
 /* Setting the default paragraph properties */
@@ -67,7 +69,7 @@ p {
   border-radius: 20px;
   width: 80%;
   margin-top: 10px;
-  bottom: 0;
+  bottom: 20;
   font-size: 15px;
 }
 
@@ -76,6 +78,7 @@ p {
 }
 
 .suvs > .btn {
+  margin-top: 28px;
   color: var(--dark_cyan);
 }
 
@@ -140,7 +143,7 @@ p {
 
   .sedans {
     background-color: var(--bright_orange);
-    border-radius: 10px 0 0 10px;
+    border-radius: 5px 0 0 5px;
   }
   .suvs {
     background-color: var(--dark_cyan);
@@ -148,6 +151,6 @@ p {
 
   .luxury {
     background-color: var(--very_dark_cyan);
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 5px 5px 0;
   }
 }
